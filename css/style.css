@@ -1,0 +1,216 @@
+/* Defaults Custom CSS */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.2px;
+}
+p,span{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+.cmn-padding{
+	padding: 85px 0;
+}
+.divider-top, .divider-bottom{
+	border-top: 1px solid #44444445; 
+}
+
+/* Menubar Section CSS */
+.menubar-section{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #d8d8d8;
+}
+.menubar-section a{
+	color: #a2a2a2 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 15px;
+    color: #4444;
+    font-weight: 600;
+    padding: 7px 26px;
+}
+.menubar-section .bg-light{
+ 	background-color: #d8d8d8 !important;
+ }
+
+/* Banner Section CSS */
+.banner-section{
+	height: 100vh;
+}
+.banner-details .badge-danger{
+	font-size: 15px;
+	text-transform: uppercase;
+	float: left;
+	background-color: #f86170;
+}
+.banner-details .covid-19{
+	transition: 0.5s ease-in-out;
+}
+.banner-details .covid-19:hover{
+	margin-left: 12px;
+}
+.banner-details .c_arrow {
+    border-top: 12px solid transparent;
+    border-bottom: 10.5px solid transparent;
+    border-left: 16px solid #f86170;
+    float: left;
+    margin: 0px -3px;
+}
+.banner-details .virus {
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f86170;
+}
+.banner-details h2 {
+    font-size: 36px;
+    margin-top: 22px;
+    font-weight: 700;
+    color: #2d313d;
+    transition: 0.5s ease-in-out;
+}
+.banner-details  .subtitle{
+ 	font-size: 16px;
+ 	color: #424242;
+ 	background-color: #c2f4f5;
+ }
+.banner-details p {
+    margin-top: 5px;
+    font-weight: 400;
+    color: #4c4947;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.banner-image img{
+	width: 100%;
+}
+.banner-image p{
+	text-align: center;
+}
+.banner-details .banner-button .banner-b1{
+	background-color: #546d9c;
+}
+.banner-details .banner-button .banner-b2{
+	color: #546d9c;
+	border: none;
+	font-weight: 500;
+	background-color: transparent;
+	transition: 0.4s ease-in-out;
+}
+.banner-details .banner-button .banner-b2:hover{
+	margin-left: 8px;
+	background-color: #546d9c;
+	color: #fff;
+}
+/* More Section CSS */
+.more-section .more-title h2{
+	font-size: 38px;
+    font-weight: 600;
+    color: #2d313d;
+}
+.more-section .more-title h6 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #676767e3;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.more-section .more-title p.first{
+    font-weight: 400;
+    color: #4c4947;
+ }  
+
+..more-section .more-details img{
+    display: block;
+    margin: 0 auto;
+ }
+/* Symptoms Section CSS*/
+.symptoms-section{
+	background-color: #d0cece45;
+}
+.symptoms .full-symp{
+ 	padding: 50px 0 40px 0;
+ }
+.symptoms-section .symptoms-title{
+	text-align: center;
+}
+.symptoms-section .symptoms-title h2{
+	font-size: 38px;
+    font-weight: 600;
+    color: #2d313d;
+}
+.symptoms-section .symptoms-title p{
+	width: 50%;
+	margin: 0 auto;
+}
+.symptoms .full-symp .symp p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 16px 3px;
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+}
+.symptoms-section .symp{
+	background-color: #dddd;
+	margin: 0 0 20px 0;
+}
+.symptoms .full-symp{
+	position: relative;
+}
+.symptoms .full-symp .fever{
+	margin-top: 0px;
+}
+.symptoms-section .full-symp .fever:hover{
+	margin-top: 5px;
+}
+.symptoms .full-symp .muscle{
+	margin-top: 2px;
+}
+.symptoms .full-symp .headacke{
+	margin-top: 30px;
+}
+.symptoms .full-symp .cough{
+	margin-top: 4px;
+}
+.symptoms .full-symp .dyspnoea{
+	margin-top: 4px;
+}
+.fever, .muscle{
+	position: relative;
+	animation: leftsymp 5s;
+	animation-fill-mode: forwards;
+}
+@keyframes leftsymp {
+  from {left: -100px;}
+  to {left: 0px;}
+}
+.headacke, .cough, .dyspnoea{
+	position: relative;
+	animation: rightsymp 5s;
+	animation-fill-mode: forwards;
+}
+@keyframes rightsymp {
+  from {right: -100px;}
+  to {right: 0px;}
+}
+/* Prevention Section CSS */
+.prevention-section .symptomps-title h2{
+	font-size: 38px;
+    font-weight: 600;
+    color: #2d313d;
+}
+.prevention-section .symptomps-title h6 {
+    font-size: 17px;
+    color: #2689d2;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.prevention-section .symptomps-title p{
+    font-weight: 400;
+    color: #4c4947
+}
+.prevention-section .symptomps-title .image{
+	padding: 5px;
+}
+.prevention-section .symptomps-title .contents{
+	padding: 12px 20px;
+}
