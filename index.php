@@ -109,14 +109,70 @@
 <!-- End Symptoms Section -->
 
 
+<!-- Start Spread Section -->
+<section class="prevention-section">
+	<div class="container">
+		<div class="row cmn-padding">
+			<div class="col-md-6">
+				<img src="images/doctor.png" width="100%">
+			</div>
+			<div class="col-md-6">
+				<div class="symptomps-title">
+					<h2>How COVID-19 Spread</h2>
+					<p>There is no vaccine for COVID-19 the best thing is regular and thorough hand washing, preferably with soap and water.</p>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-2 image">
+									<img src="images/human.png" width="100%">
+								</div>
+								<div class="col-md-10 contents">
+									<h6>Human Contact</h6>
+									<p>coughing and sneezing into tissues, not touching your face with unwashed hands, and avoiding close contact.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-2 image">
+									<img src="images/air.png" width="75%">
+								</div>
+								<div class="col-md-10 contents">
+									<h6>Air Transmission</h6>
+									<p>The best thing is regular and thorough hand washing, preferably with soap and water.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-2 image">
+									<img src="images/object.png" width="100%">
+								</div>
+								<div class="col-md-10 contents">
+									<h6>Contaminated Object</h6>
+									<p>Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Spread Section -->
+
+
 <!-- Start Prevention Section -->
 <section class="prevention-section">
 	<div class="container">
 		<div class="row cmn-padding">
 			<div class="col-md-6">
 				<div class="symptomps-title">
-					<h2>Prevention & Suggestion</h2>
-					<p>There is no vaccine for COVID-19. <b>So, The best thing is regular and thorough hand washing, preferably with soap and water.</b></p>
+					<h2>Prevention & Suggestions</h2>
+					<p>There is no vaccine for COVID-19. So, The best thing is regular and thorough hand washing, preferably with soap and water.</p>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="row">
@@ -173,7 +229,7 @@
 		</div>
 	</div>
 </section>
-<!-- Start Prevention Section -->
+<!-- End Prevention Section -->
 
 
 <!-- Inlcude the Footer File -->
