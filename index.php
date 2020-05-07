@@ -114,7 +114,7 @@
 	<div class="container">
 		<div class="row cmn-padding">
 			<div class="col-md-6">
-				<img src="images/doctor.png" width="100%">
+				<img src="images/spread.png" width="85%">
 			</div>
 			<div class="col-md-6">
 				<div class="symptomps-title">
