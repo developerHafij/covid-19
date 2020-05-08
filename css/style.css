@@ -159,9 +159,6 @@ p,span{
 .symptoms .full-symp .fever{
 	margin-top: 0px;
 }
-.symptoms-section .full-symp .fever:hover{
-	margin-top: 5px;
-}
 .symptoms .full-symp .muscle{
 	margin-top: 2px;
 }
@@ -192,27 +189,74 @@ p,span{
   from {right: -100px;}
   to {right: 0px;}
 }
-/* Prevention Section CSS */
-.prevention-section .symptomps-title h2{
+/* Spread Section CSS */
+.spread-section .spread-title h2{
 	font-size: 38px;
     font-weight: 600;
     color: #2d313d;
 }
-.prevention-section .symptomps-title h6 {
-    font-size: 17px;
-    color: #2689d2;
-    font-weight: 500;
-    margin-bottom: 5px;
+.spread-section .spread-title h6 {
+    font-size: 16px;
+    color: #5d5d5dd9;
+    font-weight: 600;
+    padding: 2px 0 18px;
+    line-height: 1.4;
 }
-.prevention-section .symptomps-title p{
-    font-weight: 400;
-    color: #4c4947
+.spread-section .spread-title .single-info {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
 }
-.prevention-section .symptomps-title .image{
-	padding: 5px;
+.spread-section .spread-title .image{
+	float: left;
+    padding: 0;
 }
-.prevention-section .symptomps-title .contents{
-	padding: 12px 20px;
+.spread-section .single-info, .sp-left img{
+	display: block;
+	margin: 0 auto;
+}
+.spread-section .spread-title .contents p strong{
+	font-size: 18px;
+    color: #8251e2;
+    font-weight: 600;
+}
+.spread-section .spread-title .contents{
+	float: left;
+}
+
+/* Prevention Section CSS */
+.prevention-section .prevention-title h2{
+	font-size: 38px;
+    font-weight: 600;
+    color: #2d313d;
+}
+.prevention-section .prevention-title h6 {
+    font-size: 16px;
+    color: #5d5d5dd9;
+    font-weight: 600;
+    padding: 2px 0 18px;
+    line-height: 1.4;
+}
+.prevention-section .prevention-title .single-info {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.prevention-section .prevention-title .image{
+	float: left;
+    padding: 0;
+}
+.prevention-section .prevention-title .image img{
+	display: block;
+	margin: 0 auto;
+}
+.prevention-section .prevention-title .contents p strong{
+	font-size: 18px;
+    color: #8251e2;
+    font-weight: 600;
+}
+.prevention-section .prevention-title .contents{
+	float: left;
 }
 
 
