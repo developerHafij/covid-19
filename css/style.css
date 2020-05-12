@@ -16,25 +16,100 @@ p,span{
 
 /* Menubar Section CSS */
 .menubar-section{
-	font-family: 'Open Sans', sans-serif;
-	background-color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
-.menubar-section a{
-	color: #a2a2a2 !important;
+.navbar-dark .navbar-brand {
+    color: #ec1919 !important;
 }
-.navbar-light .navbar-nav .nav-link {
-	font-size: 15px;
-    color: #4444;
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
     font-weight: 600;
-    padding: 7px 26px;
+    padding: 15px 32px;
+    color: #211f1f;
+}.navbar-dark .navbar-nav .nav-link:hover {
+    color: #7c56c8;
 }
-.menubar-section .bg-light{
- 	background-color: #d8d8d8 !important;
- }
+
+/* ------------------------------- */
+
+/* Sticky Navbar CSS Start */
+.dropdown-item:hover{
+    background-color: #fff;
+    color:#fff;
+}
+nav{
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: transparent;
+}  
+.shrink{
+    padding: 4px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* Sticky Navbar CSS End */
+
+/* ------------------------------- */
+
+/* Drop Down CSS Start */
+.menubar-section .collapse .dropbtn {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}.menubar-section .collapse .dropbtn:hover {
+    color: #7c56c8;
+}
+.menubar-section .collapse .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    top: 50px;
+    width: 150px;
+    right: 0;
+}
+.menubar-section .collapse .dropdown:hover .dropdown-content {
+    display: block;
+}
+.menubar-section .collapse .dropdown-content a {
+    color: #444444;
+    padding: 10px 13px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 400;
+    border-bottom: 0.1px solid #fff;
+    transition: 0.3s ease-in-out;
+}
+.menubar-section .collapse .dropdown-content a:hover {
+    background-color: #ddd;
+    color: #7c56c8;
+    padding-left: 20px;
+    font-weight: 600;
+}
+/* Drop Down CSS End */
+
 
 /* Banner Section CSS */
 .banner-section{
-	height: 100vh;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.banner-section .full-banner{
+    padding: 165px 0;
 }
 .banner-details .badge-danger{
 	font-size: 15px;

@@ -6,12 +6,12 @@
 
 
 <!-- Start Banner Section -->
-<section class="banner-section" style="padding-top: 60px;">
+<section class="banner-section">
 	<div class="container">
-		<div class="row full-banner cmn-padding">
+		<div class="row full-banner">
 			<!-- Left Section Start -->
-			<div class="col-md-6 md-6 banner-details">
-				<span class="badge badge-danger covid-19">Covid-19</span>
+			<div class="col-md-7 md-7 banner-details">
+				<span class="badge badge-danger covid-19"></span>
 				<span class="c_arrow"></span>
 				<span class="virus"><strong>CoronaVirus</strong></span>
 				<h2>What is Coronavirus??</h2>
@@ -26,9 +26,9 @@
 			<!-- Left Section End -->
 
 			<!-- Right Section Start -->
-			<div class="col-md-6 md-6 banner-image">
-				<img src="images/bann.png">
-				<p>Keep Maintaining at least <b>3feet</b>(1meter)</p>
+			<div class="col-md-5 md-5 banner-image">
+				<!-- <img src="images/bann.png">
+				<p>Keep Maintaining at least <b>3feet</b>(1meter)</p> -->
 			</div>
 			<!-- Right Section End -->
 		</div>

@@ -75,5 +75,21 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Start Script For Sticky Navbar -->
+  	<script type="text/javascript">
+	    $(document).on("scroll", function(){
+	      if
+	        ($(document).scrollTop() > 86){
+	        $("#banner").addClass("shrink");
+	      }
+	      else
+	      {
+	        $("#banner").removeClass("shrink");
+	      }
+	    });
+  	</script>
+  	<!-- End Script For Sticky Navbar -->
+
   </body>
 </html>

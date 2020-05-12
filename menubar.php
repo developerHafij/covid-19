@@ -1,43 +1,68 @@
 <section class="menubar-section">
 	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">COVID-19</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+			<div class="container">
+				<!-- Brand -->
+				<a class="navbar-brand" href="#"><img src="images/logo.png" width="170px"></a>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item">
-		        <a class="nav-link" href="index.php" id="Home">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#" id="Symptomps">Symptomps</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#" id="Spread">Spread</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#" id="Prevention">Prevention</a>
-		      </li>
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-		          Pages
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">About page</a>
-		          <a class="dropdown-item" href="#">BLog page</a>
-		          <a class="dropdown-item" href="#">Faq page</a>
-		          <a class="dropdown-item" href="#">Contact</a>
-		          <a class="dropdown-item" href="#">404 page</a>
-		          <!-- <div class="dropdown-divider"></div> -->
-		        </div>
-		      </li>
-		      <li class="">
-		        <span class="btn btn-primary">Help Line</span>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+			  	<!-- Navbar links -->
+			  	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav ml-auto">
+				    	<li class="nav-item dropdown">
+							<a class="nav-link dropbtn" href="index.php" id="Home">Home <i class="fa fa-angle-down"></i></a>
+							<div class="dropdown-content">
+							    <a href="#">Home Style One</a>
+							    <a href="#">Home Style Two</a>
+							    <a href="#">Home Style Three</a>
+							    <a href="#">Home Style Four</a>
+							 </div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" id="Symptomps">Symptomps</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" id="Spread">Spread</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropbtn" href="#" id="Prevention">Prevention <i class="fa fa-angle-down"></i></a>
+							<div class="dropdown-content">
+							    <a href="#">Supplies</a>
+							    <a href="#">Behaviour</a>
+							    <a href="#">Vaccine</a>
+							    <a href="#">Medicine</a>
+							    <a href="#">Treatment</a>
+							 </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropbtn" href="index.php" id="Home">Pages <i class="fa fa-angle-down"></i></a>
+							<div class="dropdown-content">
+							    <a href="#">About page</a>
+							    <a href="#">BLog page</a>
+							    <a href="#">Faq page</a>
+							    <a href="#">Contact</a>
+							    <a href="#">404 page</a>
+							 </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropbtn" href="index.php" id="Home">Blogs <i class="fa fa-angle-down"></i></a>
+							<div class="dropdown-content">
+							    <a href="#">Blog Covid-19</a>
+							    <a href="#">News Blog</a>
+							    <a href="#">Latest BLog</a>
+							    <a href="#">Science Blog</a>
+							 </div>
+						</li>
+						<!-- <li class="">
+						<span class="btn btn-primary">Help Line</span>
+						</li> -->
+				    </ul>
+			  	</div>
+			</div>
+		</nav>	
 	</div>
 </section>
