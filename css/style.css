@@ -1,11 +1,15 @@
 /* Defaults Custom CSS */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -0.2px;
+}
+h4,h5,h6{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: -0.2px;
 }
 p,span{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 }
 .cmn-padding{
 	padding: 85px 0;
@@ -82,7 +86,7 @@ nav{
 }
 .menubar-section .collapse .dropdown-content a {
     color: #444444;
-    padding: 10px 13px;
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
     font-size: 13px;
@@ -137,10 +141,10 @@ nav{
     color: #f86170;
 }
 .banner-details h2 {
-    font-size: 36px;
+    font-size: 34px;
     margin-top: 22px;
     font-weight: 700;
-    color: #2d313d;
+    color: ##3b3b3c;
     transition: 0.5s ease-in-out;
 }
 .banner-details  .subtitle{
@@ -161,25 +165,32 @@ nav{
 	text-align: center;
 }
 .banner-details .banner-button .banner-b1{
-	background-color: #546d9c;
+	background-color: #8854cc;
+    border: 1px solid #8854cc;
+    transition: 0.3s ease-in-out;
+}.banner-details .banner-button .banner-b1:hover{
+    background-color: transparent;
+    border: 1px solid #8854cc;
+    color: #444;
 }
 .banner-details .banner-button .banner-b2{
 	color: #546d9c;
 	border: none;
 	font-weight: 500;
+    border: 1px solid #8854cc;
 	background-color: transparent;
 	transition: 0.4s ease-in-out;
 }
 .banner-details .banner-button .banner-b2:hover{
 	margin-left: 8px;
-	background-color: #546d9c;
+	background-color: #8854cc;
 	color: #fff;
 }
 /* More Section CSS */
 .more-section .more-title h2{
-	font-size: 38px;
+	font-size: 34px;
     font-weight: 600;
-    color: #2d313d;
+    color: #3b3b3c;
 }
 .more-section .more-title h6 {
     font-size: 19px;
@@ -193,11 +204,84 @@ nav{
     font-weight: 400;
     color: #4c4947;
  }  
-
-..more-section .more-details img{
+.more-section .more-details img{
     display: block;
     margin: 0 auto;
- }
+}.more-section .more-details .m-left{
+    display: flex;
+    align-items: center;
+}
+.more-section .more-details .also-need h4{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #505050e3;
+    margin-top: 35px;
+}.more-section .more-details .also-need .also-ques ul{
+    padding-left: 0;
+}.more-section .more-details .also-need .also-ques ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px 0;
+    font-weight: 500;
+    color: #8251e2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}.more-section .more-details .also-need .also-ques ul li:hover {
+    color: #505050e0;
+}
+/* Manage Section CSS */
+.manage-section{
+    background-color: #d2d2d2cc;
+}
+.manage-section .cmn-manage{
+    background-color: #f7f7f7;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}.manage-section .cmn-manage h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #3b3b3c;
+}.manage-section .cmn-manage .manage-title{
+    padding-left: 12px;
+}.manage-section .cmn-manage h6{
+    font-size: 19px;
+    font-weight: 600;
+    color: #676767e3;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.manage-section .cmn-manage .card{
+    border: 1px dotted #d2d2d2;
+}.manage-section .cmn-manage .card .card-header .btn-link{
+    color: #8854cc;
+    font-size: 16px;
+    margin: 0;
+    transition: 0.2s ease-in-out;
+}.manage-section .cmn-manage .card .card-header .btn-link:hover{
+    color: #272727e6 !important;
+}
+.manage-section .cmn-manage .card .card-body {
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: #696969;
+}
+.manage-section .card-header {
+    padding: 0;
+    border: none;
+}
+.manage-section .card-body {
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+.manage-section .right-manage {
+    display: flex;
+    align-items: center;
+}
+
 /* Symptoms Section CSS*/
 .symptoms-section{
 	background-color: #d0cece45;
@@ -209,9 +293,9 @@ nav{
 	text-align: center;
 }
 .symptoms-section .symptoms-title h2{
-	font-size: 38px;
+	font-size: 34px;
     font-weight: 600;
-    color: #2d313d;
+    color: ##3b3b3c;
 }
 .symptoms-section .symptoms-title p{
 	width: 50%;
@@ -252,7 +336,7 @@ nav{
 	animation-fill-mode: forwards;
 }
 @keyframes leftsymp {
-  from {left: -100px;}
+  from {left: -30px;}
   to {left: 0px;}
 }
 .headacke, .cough, .dyspnoea{
@@ -261,14 +345,14 @@ nav{
 	animation-fill-mode: forwards;
 }
 @keyframes rightsymp {
-  from {right: -100px;}
+  from {right: -30px;}
   to {right: 0px;}
 }
 /* Spread Section CSS */
 .spread-section .spread-title h2{
-	font-size: 38px;
+	font-size: 34px;
     font-weight: 600;
-    color: #2d313d;
+    color: ##3b3b3c;
 }
 .spread-section .spread-title h6 {
     font-size: 16px;
@@ -286,9 +370,12 @@ nav{
 	float: left;
     padding: 0;
 }
-.spread-section .single-info, .sp-left img{
-	display: block;
-	margin: 0 auto;
+.spread-section .single-info, .sp-left{
+	display: flex;
+    align-items: center;
+}.spread-section .single-info, .sp-left img{
+    display: block;
+    margin: 0 auto;
 }
 .spread-section .spread-title .contents p strong{
 	font-size: 18px;
@@ -301,9 +388,9 @@ nav{
 
 /* Prevention Section CSS */
 .prevention-section .prevention-title h2{
-	font-size: 38px;
+	font-size: 34px;
     font-weight: 600;
-    color: #2d313d;
+    color: #3b3b3c;
 }
 .prevention-section .prevention-title h6 {
     font-size: 16px;
@@ -324,6 +411,9 @@ nav{
 .prevention-section .prevention-title .image img{
 	display: block;
 	margin: 0 auto;
+}.prevention-section .p-right{
+    display: flex;
+    align-items: center;
 }
 .prevention-section .prevention-title .contents p strong{
 	font-size: 18px;
@@ -338,6 +428,64 @@ nav{
 
 
 
+/* Bog Section CSS */
+.blog-section{
+    background-color: #afafaf2e;
+}
+.blog-section .blog-title{
+    text-align: center;
+}.blog-section .blog-title h2{
+     font-size: 34px;
+    font-weight: 600;
+    color: #3b3b3c
+}
+.blog-section .blog-title h6 {
+    font-size: 16px;
+    color: #5d5d5dd9;
+    font-weight: 600;
+    padding: 0px 0 42px;
+    line-height: 1.4;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}.blog-section .card img{
+    width: 100%;
+}.blog-section .card h5{
+    font-size: 19px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}.blog-section .card p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a4a4a;
+}.blog-section .card .card-body .date{
+    padding: 10px 0;
+}.blog-section .card .card-body .date .fa{
+    color: #6f6f6f;
+    font-weight: 600;
+}.blog-section .card .card-body .date .fa-calendar{
+    color: #6f6f6fb5;
+    font-weight: 100;
+}.blog-section .card .card-body .date .fa-user{
+    color: #6f6f6fb5;
+    font-weight: 100;
+}.blog-section .card .card-body .date .user span{
+    float: right;
+}
+.blog-section .card .card-body .read-more{
+    color: #8251e2;
+    font-size: 14px;
+    font-weight: 500;
+}.blog-section .card .card-body .fa-angle-double-right{
+    color: #8251e2;
+    transition: 0.3s ease-in-out;
+}.blog-section .card .card-body .read-more:hover .fa-angle-double-right{
+    margin-left: 4px;
+}.blog-section .card .card-body {
+    padding: 32px 20px;
+}
 
 
 
@@ -467,7 +615,7 @@ footer .copyright .right{
 footer .copyright .right:hover{
 	margin-left: -3px;
 }
-footer .copyright .left, .right span{
+footer .copyright span.right,span.left{
 	color: #6f6f6f;
 	transition: 0.3s ease-in-out;
 }

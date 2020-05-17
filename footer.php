@@ -3,7 +3,8 @@
 		<section class="container">
 			<div class="row full-footer">
 				<div class="col-md-5 cmn-footer footer-one-clm">
-					<h3>Covid-19.</h3>
+					<h3>Covid-19.</h3> 
+					<!-- <img src="images/logo.png" width="180px"> -->
 					<p>Coronavirus spreads when an infected person coughs or sneezes small droplets - packed with the virus - into the air. These can be breathed in, or cause an infection if you touch a surface they have landed on, then your eyes, nose or mouth.</p>
 					<div class="social-icons">
 						<ul>
@@ -90,6 +91,8 @@
 	    });
   	</script>
   	<!-- End Script For Sticky Navbar -->
+
+  	<script type="text/javascript" src="js/main.js"></script>
 
   </body>
 </html>
