@@ -103,7 +103,6 @@ nav{
 }
 /* Drop Down CSS End */
 
-
 /* Banner Section CSS */
 .banner-section{
     background-image: url('../images/background.png');
@@ -425,9 +424,6 @@ nav{
 }
 
 
-
-
-
 /* Bog Section CSS */
 .blog-section{
     background-color: #afafaf2e;
@@ -487,15 +483,48 @@ nav{
     padding: 32px 20px;
 }
 
+/* Contact Section CSS */
+.contact-section{
 
-
-
-
-
-
-
-
-
+}
+.contact-section .full-contact .contact-title h2 {
+    font-size: 27px;
+    font-weight: 500;
+    color: #3b3b3c;
+}.contact-section .full-contact .contact-title span {
+    font-weight: 500;
+    color: #4a4a4a;
+}.contact-section .full-contact .contact-title .emergency p {
+    margin-bottom: 6px;
+    color: #444;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 22px;
+}.contact-section .full-contact .contact-title .emergency .cmn-contact ul{
+    
+}
+.contact-section .full-contact .contact-title .emergency .cmn-contact ul li{
+    list-style: none;
+    display: block;
+}.contact-section .full-contact .contact-title .emergency .left-contact ul li {
+    color: #313131;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}.contact-section .full-contact .contact-title .emergency .right-contact ul li {
+    color: #8251e2;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.contact-section .form-right{
+    background-color: #dddddd75;
+    padding: 38px;
+    border-radius: 15px;
+}.contact-section .form-right .form-row .form-group{
+    margin-bottom: 6px;
+}
 
 /* Footer Section CSS */
 footer {
