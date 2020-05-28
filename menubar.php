@@ -3,7 +3,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
 			<div class="container">
 				<!-- Brand -->
-				<a class="navbar-brand" href="#"><img src="images/logo.png" width="170px"></a>
+				<a class="navbar-brand" href="index.php"><img src="images/logo.png" width="170px"></a>
 
 				<!-- Toggler/collapsibe Button -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

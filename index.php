@@ -338,62 +338,68 @@
 	<div class="container">
 		<div class="row cmn-padding">
 			<div class="col-md-12 blog-title">
-				<h2>Most Popular Blog</h2>
+				<h2>Most Popular Blogs</h2>
 				<h6>There is no vaccine for COVID-19. So, The best thing is regular and thorough hand washing.</h6>
 			</div>
-			<div class="col-md-4">
-				<div class="card">
-				  <img class="card-img-top" src="images/blog1.png" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Financial Reporting Qouncil What Could more...</h5>
-				    <div class="row date">
-				    	<div class="col-md-6 calendar">
-				    		<span><i class="fa fa-calendar"></i> July 10, 2020</span>
-				    	</div>
-				    	<div class="col-md-6 user">
-				    		<span><i class="fa fa-user"></i> Mr. Hafij</span>
-				    	</div>
-				    </div>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Coronavirus spreads when an infected person.</p>
-				    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
-				  </div>
-				</div>
+			<div class="col-md-4 indiv-blog">
+				<a href="" title="Financial Reporting Qouncil What Could more...">
+					<div class="card">
+					  <img class="card-img-top" src="images/blog1.png" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Financial Reporting Qouncil What Could more...</h5>
+					    <div class="row date">
+					    	<div class="col-md-6 calendar">
+					    		<span><i class="fa fa-calendar"></i> July 10, 2020</span>
+					    	</div>
+					    	<div class="col-md-6 user">
+					    		<span><i class="fa fa-user"></i> Mr. Hafij</span>
+					    	</div>
+					    </div>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Coronavirus spreads when an infected person.</p>
+					    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+					  </div>
+					</div>
+				</a>
 			</div>
-			<div class="col-md-4">
-				<div class="card">
-				  <img class="card-img-top" src="images/blog2.png" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Coronavirus spreads when an infected person more...</h5>
-				    <div class="row date">
-				    	<div class="col-md-6 calendar">
-				    		<span><i class="fa fa-calendar"></i> March 20, 2020</span>
-				    	</div>
-				    	<div class="col-md-6 user">
-				    		<span><i class="fa fa-user"></i> John Doe</span>
-				    	</div>
-				    </div>
-				    <p class="card-text">Virus spreads when an infected person coughs or sneezes small droplets. These can be breathed in, or cause an infection.</p>
-				    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
-				  </div>
-				</div>
+			<div class="col-md-4 indiv-blog">
+				<a href="" title="Coronavirus spreads when an infected person more...">
+					<div class="card">
+					  <img class="card-img-top" src="images/blog2.png" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Coronavirus spreads when an infected person more...</h5>
+					    <div class="row date">
+					    	<div class="col-md-6 calendar">
+					    		<span><i class="fa fa-calendar"></i> March 20, 2020</span>
+					    	</div>
+					    	<div class="col-md-6 user">
+					    		<span><i class="fa fa-user"></i> John Doe</span>
+					    	</div>
+					    </div>
+					    <p class="card-text">Virus spreads when an infected person coughs or sneezes small droplets. These can be breathed in, or cause an infection.</p>
+					    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+					  </div>
+					</div>
+				</a>
 			</div>
-			<div class="col-md-4">
-				<div class="card">
-				  <img class="card-img-top" src="images/blog1.png" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">These can be breathed in, or cause an infection more...</h5>
-				    <div class="row date">
-				    	<div class="col-md-6 calendar">
-				    		<span><i class="fa fa-calendar"></i> Jun 18, 2020</span>
-				    	</div>
-				    	<div class="col-md-6 user">
-				    		<span><i class="fa fa-user"></i> Mr. Smith</span>
-				    	</div>
-				    </div>
-				    <p class="card-text"> Breathed in, or cause an infection if you touch a surface they have landed on, then your eyes, nose or mouth..</p>
-				    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
-				  </div>
-				</div>
+			<div class="col-md-4 indiv-blog">
+				<a href="" title="These can be breathed in, or cause an infection more...">
+					<div class="card">
+					  <img class="card-img-top" src="images/blog1.png" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">These can be breathed in, or cause an infection more...</h5>
+					    <div class="row date">
+					    	<div class="col-md-6 calendar">
+					    		<span><i class="fa fa-calendar"></i> Jun 18, 2020</span>
+					    	</div>
+					    	<div class="col-md-6 user">
+					    		<span><i class="fa fa-user"></i> Mr. Smith</span>
+					    	</div>
+					    </div>
+					    <p class="card-text"> Breathed in, or cause an infection if you touch a surface they have landed on, then your eyes, nose or mouth..</p>
+					    <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+					  </div>
+					</div>
+				</a>
 			</div>
 
 		</div>
@@ -423,11 +429,11 @@
 						</div>
 						<div class="col-md-10 cmn-contact right-contact">
 							<ul>
-								<li>: +565 65132 </li>
-								<li>: +880 1712345678 </li>
-								<li>: +880 1812345678 </li>
-								<li>: covid19@gmail.com </li>
-								<li>: +1323 555 1234 </li>
+								<li>: +555 65132</li>
+								<li>: +880 1712345678</li>
+								<li>: +880 1812345678</li>
+								<li>: covid19.info@gmail.com</li>
+								<li>: +1323 555 1234</li>
 							</ul>
 						</div>
 					</div>
@@ -437,22 +443,20 @@
 			<!-- Form Section Start -->
 			<div class="col-md-6 form-right">
 				<form>
-					<h3>Send Message</h3>
-					<div class="form-row">
-						<div class="form-group col-md-12">
+					<h3>Send Your Information</h3>
+					  <div class="form-row">
+					  	<div class="form-group col-md-12">
 						    <input type="text" class="form-control" id="name" placeholder="Full Name">
 						</div>
 					    <div class="form-group col-md-6">
 					      <input type="email" class="form-control" id="email" placeholder="Email">
 					    </div>
 					    <div class="form-group col-md-6">
-					      <input type="phone" class="form-control" id="" placeholder="Phone">
+					      <input type="phone" class="form-control" id="phone" placeholder="Phone">
 					    </div>
-					  </div>
-					  <div class="form-group">
-					    <input type="text" class="form-control" id="inputAddress" placeholder="Your Address">
-					  </div>
-					  <div class="form-row">
+					    <div class="form-group col-md-12">
+					      <input type="text" class="form-control" id="inputAddress" placeholder="Your Address">
+					  	</div>
 					    <div class="form-group col-md-4">
 					      <select id="inputState" class="form-control">
 					        <option selected>Your Age</option>
@@ -482,7 +486,7 @@
 						    <textarea type="text" class="form-control" id="" placeholder="Your Message" rows="5"></textarea>
 						</div>
 					  </div>
-					  <button type="submit" class="btn btn-primary">Submit <i class="fa fa-paper-plane"></i></button>
+					  <button type="submit" class="btn btn-primary send-info">Submit <i class="fa fa-paper-plane"></i></button>
 				</form>
 			</div>
 			<!-- Form Section End -->

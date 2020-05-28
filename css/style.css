@@ -232,7 +232,7 @@ nav{
 }
 /* Manage Section CSS */
 .manage-section{
-    background-color: #d2d2d2cc;
+    background-color: #d2d2d28f;
 }
 .manage-section .cmn-manage{
     background-color: #f7f7f7;
@@ -446,13 +446,21 @@ nav{
     margin: 0 auto;
 }.blog-section .card img{
     width: 100%;
-}.blog-section .card h5{
+}.blog-section .indiv-blog a{
+    text-decoration: none;
+}
+.blog-section .card h5{
     font-size: 19px;
     font-weight: 600;
     color: #3c3c3c;
     margin-bottom: 0;
     letter-spacing: -0.6px;
-}.blog-section .card p{
+    transition: 0.2s ease-in-out;
+}
+.blog-section .card:hover h5{
+    color: #8251e2;
+}
+.blog-section .card p{
     font-size: 15px;
     font-weight: 500;
     color: #4a4a4a;
@@ -467,6 +475,8 @@ nav{
 }.blog-section .card .card-body .date .fa-user{
     color: #6f6f6fb5;
     font-weight: 100;
+}.blog-section .card .card-body .date span{
+    color: #444;
 }.blog-section .card .card-body .date .user span{
     float: right;
 }
@@ -513,17 +523,35 @@ nav{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }.contact-section .full-contact .contact-title .emergency .right-contact ul li {
-    color: #8251e2;
-    font-weight: 400;
+    color: #9a6bf7;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
-.contact-section .form-right{
-    background-color: #dddddd75;
-    padding: 38px;
-    border-radius: 15px;
-}.contact-section .form-right .form-row .form-group{
-    margin-bottom: 6px;
+.contact-section .form-right {
+    background-color: #fff;
+    padding: 40px 33px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px -3px rgba(50,100,64,0.3);
+}.contact-section .form-right form h3 {
+    color: #797979;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact-section .form-right .form-row .form-group{
+    margin-bottom: 8px;
+}
+.contact-section .form-right .send-info .fa-paper-plane{
+    font-size: 13px;
+}
+.contact-section .form-right .send-info{
+    background-color: #8854cc;
+    border: none;
+    padding: 8px 18px;
+    font-weight: 500;
+}.contact-section .form-right .send-info:hover{
+    background-color: #994dfd;
 }
 
 /* Footer Section CSS */

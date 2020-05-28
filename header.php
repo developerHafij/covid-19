@@ -25,6 +25,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Covid-19 || CoronaVirus</title>
+    <title>Covid-19 | CoronaVirus</title>
   </head>
   <body>
