@@ -232,7 +232,7 @@ nav{
 }
 /* Manage Section CSS */
 .manage-section{
-    background-color: #d2d2d28f;
+    background-color: #fff;/*d2d2d28f*/
 }
 .manage-section .cmn-manage{
     background-color: #f7f7f7;
@@ -351,7 +351,7 @@ nav{
 .spread-section .spread-title h2{
 	font-size: 34px;
     font-weight: 600;
-    color: ##3b3b3c;
+    color: #3b3b3c;
 }
 .spread-section .spread-title h6 {
     font-size: 16px;
@@ -363,7 +363,7 @@ nav{
 .spread-section .spread-title .single-info {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 8px 0;
 }
 .spread-section .spread-title .image{
 	float: left;
@@ -384,6 +384,26 @@ nav{
 .spread-section .spread-title .contents{
 	float: left;
 }
+.spread-section .more-spread .also-need h4{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #505050e3;
+    margin-top: 15px;
+}.spread-section .more-spread .also-need .also-ques ul{
+    padding-left: 0;
+}.spread-section .more-spread .also-need .also-ques ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px 0;
+    font-weight: 500;
+    color: #8251e2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}.spread-section .more-spread .also-need .also-ques ul li:hover {
+    color: #505050e0;
+}
 
 /* Prevention Section CSS */
 .prevention-section .prevention-title h2{
@@ -401,7 +421,7 @@ nav{
 .prevention-section .prevention-title .single-info {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 8px 0;
 }
 .prevention-section .prevention-title .image{
 	float: left;
@@ -422,7 +442,74 @@ nav{
 .prevention-section .prevention-title .contents{
 	float: left;
 }
+.prevention-section .prevention-title .prevention-b{
+    padding: 30px 5px;
+}
+.prevention-section .prevention-title .prevention-b .prevention-btn {
+    padding: 9px 45px 9px 30px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid #8251e2;
+}.prevention-section .prevention-title .prevention-b .fa-arrow-right {
+    width: 25px;
+    transition: 0.2s ease-in-out;
+}
+.prevention-section .prevention-title .prevention-b .prevention-btn,.doctor-btn{
+    position: relative;
+    background-color: #8251e2;
+}
+.prevention-section .prevention-title .prevention-b .prevention-btn .fa-arrow-right {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 80%;
+    top: 16px;
+    transition: 0.4s ease-in-out;
+}
+.prevention-section .prevention-title .prevention-b .prevention-btn:hover .fa-arrow-right {
+    left: 82%;
+}
+.prevention-section .prevention-title .prevention-b .doctor{
+    background-color: transparent;
+    color: #8251e2;
+    transition: 0.3s ease-in-out;
+}.prevention-section .prevention-title .prevention-b .doctor:hover{
+    background-color: #8251e2;
+    color: #fff;
+}
 
+/* newslatter start */
+.bulletin-section{
+    padding: 85px 0;
+}
+.bulletins{
+    border: 3px solid #8251e2;
+    border-radius: 15px;
+    padding: 60px 0;
+}
+.bulletin-section .bulletins .bull-title h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: #3b3b3c;
+}
+.bulletin-section .bulletins .bull-title p{
+    color: #737373;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+.bulletin-section .bulletins .bull-form .form-inner{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+.bulletin-section .bulletins .bull-form .form-inner .inner-btn{
+    background-color: #8251e2;
+    color: #fff;
+    border: 1px solid #8251e2;
+}.bulletin-section .bulletins .bull-form .form-inner .inner-btn:hover{
+    background-color: #994dfd;
+}
 
 /* Bog Section CSS */
 .blog-section{
@@ -494,9 +581,6 @@ nav{
 }
 
 /* Contact Section CSS */
-.contact-section{
-
-}
 .contact-section .full-contact .contact-title h2 {
     font-size: 27px;
     font-weight: 500;

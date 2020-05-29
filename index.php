@@ -71,10 +71,195 @@
 <!-- End More About Section -->
 
 
+<!-- Start Symptoms Section -->
+<section class="symptoms-section">
+	<div class="container">
+		<div class="symptoms cmn-padding">
+			<div class="symptoms-title">
+				<h2>Corona Virus Symptoms</h2>
+				<p>Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing problems</p>
+			</div>
+			<div class="row full-symp">
+				<!-- Left Symptomps -->
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col-md-12 symp fever" id="Symp">
+							<p>You have a fever if your temperature is above 37.8C. This can make you feel warm.</p>
+						</div>
+						<div class="col-md-12 symp muscle">
+							<p>The cough to look out for is a new, continuous cough. This means coughing a lot for more than an hour, or having three or more coughing episodes in 24 hours. If you usually have a cough, it may be worse than usual.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Middle Symptomps -->
+				<div class="col-md-6">
+					<img src="images/symptomps.png" width="100%">
+				</div>
+				<!-- Right Symptomps -->
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col-md-12 symp headacke">
+							<p>Headache and diarrhoea have also been reported and a loss of smell and taste may also be a symptom.</p>
+						</div>
+						<div class="col-md-12 symp cough">
+							<p>Coughing a lot for more than an hour. If you usually have a cough, it may be worse than usual.</p>
+						</div>
+						<div class="col-md-12 symp dyspnoea">
+							<p>If you usually have a Dyspnoea, it may be worse than usual.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Symptoms Section -->
+
+
+<!-- Start Spread Section -->
+<section class="spread-section">
+	<div class="container">
+		<div class="row cmn-padding">
+			<!-- Left Items Start -->
+			<div class="col-md-6 sp-left">
+				<img src="images/spread.png" width="85%">
+			</div>
+			<!-- Left Items End -->
+			<div class="col-md-6">
+				<div class="spread-title">
+					<!-- Right Items Start -->
+					<h2>Spread COVID-19</h2>
+					<h6>There is no vaccine for COVID-19 the best thing is regular and thorough hand washing, preferably with soap and water.</h6>
+					<div class="row more-spread">
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/human.png" width="76%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Human Contact-</strong> Coughing and sneezing into tissues, not touching your face with unwashed hands, and avoiding close contact.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/air.png" width="62%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Air Transmission-</strong> Preferably with soap and water. People will be most infectious when they have symptoms, but some may spread the virus even before they are sick. People will be most infectious when they have symptoms.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/object.png" width="75%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Contaminated Object-</strong> Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing.
+								</p>
+							</div>
+						</div>
+
+						<div class="also-need">
+							<h4>How Spread More</h4>
+							<div class="also-ques">
+								<ul> 
+									<a href=""><li> How It Spreads </li></a> | 
+									<a href=""><li> Diseases of Covid-19 </li></a> | 
+									<a href=""><li> Prevention of Spread </li></a> | 
+									<a href=""><li> Questions & Answere </li></a>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- Right Items End -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Spread Section -->
+
+
+<!-- Start Prevention Section -->
+<section class="prevention-section">
+	<div class="divider-top"></div>
+	<div class="container">
+		<div class="row cmn-padding">
+			<div class="col-md-6 p-left">
+				<div class="prevention-title">
+					<!-- Left Items Start -->
+					<h2>Prevention & Suggestions</h2>
+					<h6>There is no vaccine for COVID-19. So, The best thing is regular and thorough hand washing, preferably with soap and water. Coughing and sneezing into tissues</h6>
+					<div class="row">
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/mask.png" width="95%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Use Mask-</strong> Coughing and sneezing into tissues, not touching your face with unwashed hands, and avoiding close contact. People will be most infectious when they have symptoms.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/wash.png" width="92%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Wash Hand-</strong> Preferably with soap and water. People will be most infectious when they have symptoms, but some may spread the virus even before they are sick.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/crowd.png" width="76%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Avoid Crowds-</strong> Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12 single-info">
+							<div class="col-md-2 image">
+								<img src="images/doc.png" width="73%">
+							</div>
+							<div class="col-md-10 contents">
+								<p>
+									<strong>Go to Doctor-</strong> People will be most infectious when they have symptoms, but some may spread the virus even before they are sick.
+								</p>
+							</div>
+						</div>
+						<div class="prevention-b">
+							<a href="" type="button" class="btn btn-primary prevention-btn">More Preventions <i class="fa fa-arrow-right"></i></a>
+						</div>
+						<div class="prevention-b">
+							<a href="" type="button" class="btn btn-primary prevention-btn doctor">Doctor Suggestion <i class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+					<!-- Left Items End -->
+				</div>
+			</div>
+			<!-- Right Items Start -->
+			<div class="col-md-6 p-right">
+				<img src="images/doctor.png" width="100%">
+			</div>
+			<!-- Right Items End -->
+		</div>
+	</div>
+</section>
+<!-- End Prevention Section -->
+
+
 <!-- Start Manage Information Section -->
 <section class="manage-section">
 	<div class="container">
-		<div class="row cmn-padding">
+		<div class="row">
 			<!-- Left Manage Section Start -->
 			<div class="col-md-6 cmn-manage left-manage">
 				<div class="manage-title">
@@ -167,170 +352,31 @@
 <!-- End Manage Information Section -->
 
 
-<!-- Start Symptoms Section -->
-<section class="symptoms-section">
-	<div class="container">
-		<div class="symptoms cmn-padding">
-			<div class="symptoms-title">
-				<h2>Corona Virus Symptoms</h2>
-				<p>Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing problems</p>
-			</div>
-			<div class="row full-symp">
-				<!-- Left Symptomps -->
-				<div class="col-md-3">
-					<div class="row">
-						<div class="col-md-12 symp fever" id="Symp">
-							<p>You have a fever if your temperature is above 37.8C. This can make you feel warm.</p>
-						</div>
-						<div class="col-md-12 symp muscle">
-							<p>The cough to look out for is a new, continuous cough. This means coughing a lot for more than an hour, or having three or more coughing episodes in 24 hours. If you usually have a cough, it may be worse than usual.</p>
-						</div>
-					</div>
-				</div>
-				<!-- Middle Symptomps -->
-				<div class="col-md-6">
-					<img src="images/symptomps.png" width="100%">
-				</div>
-				<!-- Right Symptomps -->
-				<div class="col-md-3">
-					<div class="row">
-						<div class="col-md-12 symp headacke">
-							<p>Headache and diarrhoea have also been reported and a loss of smell and taste may also be a symptom.</p>
-						</div>
-						<div class="col-md-12 symp cough">
-							<p>Coughing a lot for more than an hour. If you usually have a cough, it may be worse than usual.</p>
-						</div>
-						<div class="col-md-12 symp dyspnoea">
-							<p>If you usually have a Dyspnoea, it may be worse than usual.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Start Newslatter Section-->
+<section class="bulletin-section">
+    <div class="container">
+      <div class="row bulletins">
+        <div class="col-md-12 bull-title text-center">
+            <h2>Stay up to date with Covid19!</h2>
+            <p>Please fill in your details and we will send all the vital information needed to be safe during this Pandemic.</p>
+        </div>
+        <div class="col-md-12 bull-form">
+          <form class="form-inline">
+            <div class="col-auto form-inner">
+		      <div class="input-group mb-2">
+		      	<input type="email" required="" class="form-control" id="inlineFormInputGroup" placeholder="Enter email">
+		        <div class="input-group-prepend">
+		          <a href="#" type="button" class="input-group-text btn btn-primary inner-btn">Submit</a>
+		        </div>
+		      </div>
+		    </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
 </section>
-<!-- End Symptoms Section -->
-
-
-<!-- Start Spread Section -->
-<section class="spread-section">
-	<div class="container">
-		<div class="row cmn-padding">
-			<!-- Left Items Start -->
-			<div class="col-md-6 sp-left">
-				<img src="images/spread.png" width="85%">
-			</div>
-			<!-- Left Items End -->
-			<div class="col-md-6">
-				<div class="spread-title">
-					<!-- Right Items Start -->
-					<h2>Spread COVID-19</h2>
-					<h6>There is no vaccine for COVID-19 the best thing is regular and thorough hand washing, preferably with soap and water.</h6>
-					<div class="row">
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/human.png" width="76%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Human Contact-</strong> Coughing and sneezing into tissues, not touching your face with unwashed hands, and avoiding close contact.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/air.png" width="62%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Air Transmission-</strong> Preferably with soap and water. People will be most infectious when they have symptoms, but some may spread the virus even before they are sick. People will be most infectious when they have symptoms.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/object.png" width="75%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Contaminated Object-</strong> Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing.
-								</p>
-							</div>
-						</div>
-
-					</div>
-					<!-- Right Items End -->
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End Spread Section -->
-
-
-<!-- Start Prevention Section -->
-<section class="prevention-section">
-	<div class="container">
-		<div class="row cmn-padding">
-			<div class="col-md-6 p-left">
-				<div class="prevention-title">
-					<!-- Left Items Start -->
-					<h2>Prevention & Suggestions</h2>
-					<h6>There is no vaccine for COVID-19. So, The best thing is regular and thorough hand washing, preferably with soap and water. Coughing and sneezing into tissues</h6>
-					<div class="row">
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/mask.png" width="95%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Use Mask-</strong> Coughing and sneezing into tissues, not touching your face with unwashed hands, and avoiding close contact. People will be most infectious when they have symptoms.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/wash.png" width="92%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Wash Hand-</strong> Preferably with soap and water. People will be most infectious when they have symptoms, but some may spread the virus even before they are sick.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/crowd.png" width="76%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Avoid Crowds-</strong> Coronavirus infects the lungs. The two main symptoms are a fever or a dry cough, which can sometimes lead to breathing.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-12 single-info">
-							<div class="col-md-2 image">
-								<img src="images/doc.png" width="73%">
-							</div>
-							<div class="col-md-10 contents">
-								<p>
-									<strong>Go to Doctor-</strong> People will be most infectious when they have symptoms, but some may spread the virus even before they are sick.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- Left Items End -->
-				</div>
-			</div>
-			<!-- Right Items Start -->
-			<div class="col-md-6 p-right">
-				<img src="images/doctor.png" width="100%">
-			</div>
-			<!-- Right Items End -->
-		</div>
-	</div>
-</section>
-<!-- End Prevention Section -->
+<!-- End Newslatter Section -->
 
 
 <!-- Start Popular Blog -->
