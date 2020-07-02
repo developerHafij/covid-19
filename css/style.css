@@ -18,6 +18,36 @@ p,span{
 	border-top: 1px solid #44444445; 
 }
 
+/* Single Line Animation Start */
+/*.banner-section h2.line-animation{
+    display: block;
+    color: #696969;
+    position: relative;
+ }
+ .banner-section  h2.line-animation::before{
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #696969;
+ }
+ .banner-section  h2.line-animation:hover::before{
+    width: 50%;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+ }*/
+/* Single Line Animation End */
+
+
+/* ===================================== 
+    Home Page (index.php page) CSS Start 
+===================================== */
+
 /* Menubar Section CSS */
 .menubar-section{
     font-family: 'Open Sans', sans-serif;
@@ -54,7 +84,7 @@ nav{
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: transparent;
+    background-color: #fff;
 }  
 .shrink{
     padding: 4px 0;
@@ -294,7 +324,7 @@ nav{
 .symptoms-section .symptoms-title h2{
 	font-size: 34px;
     font-weight: 600;
-    color: ##3b3b3c;
+    color: #3b3b3c;
 }
 .symptoms-section .symptoms-title p{
 	width: 50%;
@@ -595,8 +625,6 @@ nav{
     text-transform: uppercase;
     font-size: 15px;
     margin-top: 22px;
-}.contact-section .full-contact .contact-title .emergency .cmn-contact ul{
-    
 }
 .contact-section .full-contact .contact-title .emergency .cmn-contact ul li{
     list-style: none;
@@ -637,6 +665,292 @@ nav{
 }.contact-section .form-right .send-info:hover{
     background-color: #994dfd;
 }
+/* ===================================== 
+    Home Page (index.php Page) CSS End 
+===================================== */
+
+
+
+/* ===================================== 
+    Blog Page (blog.php Page) CSS Start 
+===================================== */
+
+/* Blog-page CSS */
+.blog-banner-section{
+    position: relative;
+    height: 100vh;
+}
+.blog-banner-section::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/blogs/blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(22%);
+    z-index: -1;
+}
+.blog-banner-section .blog-title{
+    
+}
+.blog-banner-section .blog-banner .blog-title h2{
+    color: #d2d2d2;
+    font-size: 36px;
+    font-weight: 600;
+}
+.blog-banner-section .blog-banner .blog-title p {
+    color: #fff;
+    width: 68%;
+    display: block;
+    margin: 0 auto;
+}
+.blog-banner-section  .owl-carousel .item{
+    padding: 240px 0 160px;
+    color: #fff;
+}
+.blog-banner-section  .owl-carousel .item .banner-button{
+    margin-top: 32px;
+}.blog-banner-section  .owl-carousel .item .banner-b1 {
+    margin-right: 3px;
+    padding: 7px 45px;
+    transition: 0.3s ease-in-out;
+}.blog-banner-section  .owl-carousel .item .banner-b2{
+    margin-left: 3px;
+    padding: 7px 25px;
+    transition: 0.3s ease-in-out;
+}
+.blog-banner-section  .owl-carousel .item .banner-b1:hover {
+    background-color: transparent;
+    border: 1px solid #8251e2; 
+}.blog-banner-section  .owl-carousel .item .banner-b2:hover{
+    background-color: transparent;
+    border: 1px solid #8251e2; 
+}
+
+
+
+/* Blog Section CSS */
+.blog-page-blog-section{
+    background-color: #fff;
+}
+.blog-page-blog-section .card img{
+    width: 100%;
+}.blog-page-blog-section .indiv-blog a{
+    text-decoration: none;
+}
+.blog-page-blog-section .card h5{
+    font-size: 19px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+    transition: 0.2s ease-in-out;
+}
+.blog-page-blog-section .card:hover h5{
+    color: #8251e2;
+}
+.blog-page-blog-section .card p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a4a4a;
+}.blog-page-blog-section .card .card-body .date{
+    padding: 10px 0;
+}.blog-page-blog-section .card .card-body .date .fa{
+    color: #6f6f6f;
+    font-weight: 600;
+}.blog-page-blog-section .card .card-body .date .fa-calendar{
+    color: #6f6f6fb5;
+    font-weight: 100;
+}.blog-page-blog-section .card .card-body .date .fa-user{
+    color: #6f6f6fb5;
+    font-weight: 100;
+}.blog-page-blog-section .card .card-body .date span{
+    color: #444;
+}.blog-page-blog-section .card .card-body .date .user span{
+    float: right;
+}
+.blog-page-blog-section .card .card-body .read-more{
+    color: #8251e2;
+    font-size: 14px;
+    font-weight: 500;
+}.blog-page-blog-section .card .card-body .fa-angle-double-right{
+    color: #8251e2;
+    transition: 0.3s ease-in-out;
+}.blog-page-blog-section .card .card-body .read-more:hover .fa-angle-double-right{
+    margin-left: 4px;
+}.blog-page-blog-section .card .card-body {
+    padding: 32px 20px;
+}
+.blog-page-blog-section .indiv-blog{
+    margin-top: 30px;
+}.blog-page-blog-section .indiv-blog .card{
+    height: 480px;
+}
+.blog-page-blog-section .full-blog-section .b-search{
+    margin-top: 115px !important;
+}
+.blog-page-blog-section .full-blog-section .b-search .form-inner{
+    padding: 0;
+}
+.blog-page-blog-section .full-blog-section .b-search .form-inner .fa-search{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    background-color: #ddd;
+    width: 68px;
+    height: 38px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: #444;
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}/*.blog-page-blog-section .full-blog-section .b-search .form-inner .fa-search:hover{
+    background-color: #8251c2;
+    border: 1px solid #8251c2;
+    color: #fff;
+}*/.blog-page-blog-section .full-blog-section .b-search:hover .form-inner .fa-search{
+    background-color: #8251c2;
+    border: 1px solid #8251c2;
+    color: #fff;
+}.blog-page-blog-section .full-blog-section .form-control{
+    transition: 0.3s ease-in-out;
+}.blog-page-blog-section .full-blog-section .b-search:hover .form-control{
+    border: 1px solid #8251c2;
+}
+.blog-page-blog-section .full-blog-section .recent-post .recent-title h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin-top: 30px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+.blog-page-blog-section .full-blog-section .post-tags .tag-title ul{
+    padding-left: 0;
+}.blog-page-blog-section .full-blog-section .post-tags .tag-title ul li{
+    display: inline;
+    padding: 5px 10px;
+    margin: 0px 0px 0px 0;
+    background-color: #dddd;
+    color: #8251c2;
+    line-height: 2.3;
+    transition: 0.2s ease-in-out;
+}.blog-page-blog-section .full-blog-section .post-tags .tag-title ul li:hover{
+    background-color: #8251c2;
+    color: #fff;
+} 
+.blog-page-blog-section .full-blog-section .indiv-post .b-desp h6{
+    font-size: 13px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 0;
+    letter-spacing: -0.2px;
+    transition: 0.3s ease-in-out;
+}
+.blog-page-blog-section .full-blog-section .indiv-post .b-desp span{
+    color: #8251c2;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.blog-page-blog-section .full-blog-section .indiv-post:hover .b-desp h6{
+    color: #8251c2;
+}
+.blog-page-blog-section .full-blog-section .indiv-post:hover .b-desp span{
+    color: #4a4a4a;
+}
+
+.blog-page-blog-section .full-blog-section .indiv-post {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddddddcf;
+    cursor: pointer;
+}
+.blog-page-blog-section .full-blog-section .indiv-post .b-desp{
+    padding-left: 26px;
+}
+.blog-page-blog-section .full-blog-section .b-img{
+    display: flex;
+    align-items: center;
+}
+.blog-page-blog-section .full-blog-section .post-gallery .gl-img .cmn-gl-img img{
+    width: 89%;
+    height: auto;
+    float: right;
+}
+.blog-page-blog-section .full-blog-section .post-gallery .gl-img .cmn-gl-img{
+    padding: 5px 5px 12px 5px;
+}
+
+/* ===================================== 
+ Blog Page (blog.php Page) CSS End
+===================================== */
+
+
+/* ===================================== 
+ 404-Page (404page.php Page) CSS Start
+===================================== */
+.section404{
+   padding: 140px;
+}
+.section404 .full404page .four-first,.zero,.four-last{
+    font-size: 100px;
+    color: #bbbbbb;
+    font-weight: 700;
+}
+/* ===================================== 
+ 404-Page (404page.php Page) CSS End
+===================================== */
+
+
+/* ===================================== 
+ Faq Page (faq.php Page) CSS Start
+===================================== */
+.faq-banner{
+    padding-top: 25px;
+    padding-bottom: 75px;
+ }
+/* ===================================== 
+ Faq Page (faq.php Page) CSS End
+===================================== */
+
+
+/* ===================================== 
+ Contact Page (contact.php Page) CSS Start
+===================================== */
+.cont{
+    margin-top: 70px;
+}
+.cont-banner-section{
+    position: relative;
+}
+.cont-banner-section::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/contact/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    filter: brightness(15%);
+    z-index: -1;
+}
+.cont-banner-section .full-cont-banner{
+    padding-top: 185px;
+    padding-bottom: 80px;
+ }
+/* ===================================== 
+ Contact Page (contact.php Page) CSS End
+===================================== */
+
+
+
 
 /* Footer Section CSS */
 footer {

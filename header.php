@@ -22,6 +22,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
+
+    <!--  Owl Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 

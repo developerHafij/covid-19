@@ -92,6 +92,27 @@
   	</script>
   	<!-- End Script For Sticky Navbar -->
 
+  	<!-- Start Owl Carousel -->
+  	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  	<script type="text/javascript">
+  		var owl = $('.owl-carousel');
+			owl.owlCarousel({
+			    items:1,
+			    loop:true,
+			    autoplay:true,
+			    autoplayTimeout:10000,
+			    autoplayHoverPause:true
+			});
+			$('.play').on('click',function(){
+			    owl.trigger('play.owl.autoplay',[2000])
+			})
+			$('.stop').on('click',function(){
+			    owl.trigger('stop.owl.autoplay')
+		})
+  	</script>
+  	<!-- End Owl Carousel -->
+
+  	<!-- Main Js File -->
   	<script type="text/javascript" src="js/main.js"></script>
 
   </body>

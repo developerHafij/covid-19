@@ -14,7 +14,7 @@
 			  	<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				    <ul class="navbar-nav ml-auto">
 				    	<li class="nav-item dropdown">
-							<a class="nav-link dropbtn" href="index.php" id="Home">Home <i class="fa fa-angle-down"></i></a>
+							<a class="nav-link dropbtn" href="index.php" id="#Home">Home <i class="fa fa-angle-down"></i></a>
 							<div class="dropdown-content">
 							    <a href="#">Home Style One</a>
 							    <a href="#">Home Style Two</a>
@@ -41,11 +41,11 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropbtn" href="index.php" id="Home">Pages <i class="fa fa-angle-down"></i></a>
 							<div class="dropdown-content">
-							    <a href="#">About page</a>
-							    <a href="#">BLog page</a>
-							    <a href="#">Faq page</a>
-							    <a href="#">Contact</a>
-							    <a href="#">404 page</a>
+							    <a href="about.php">About page</a>
+							    <a href="blog.php">BLog page</a>
+							    <a href="faq.php">Faq page</a>
+							    <a href="contact.php">Contact</a>
+							    <a href="404page.php">404 page</a>
 							 </div>
 						</li>
 						<li class="nav-item dropdown">

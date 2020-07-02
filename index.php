@@ -1,12 +1,12 @@
 <!-- Include the Header File -->
 <?php include "header.php" ?>
 
-<!-- Include the Menubar FIle -->
+<!-- Include the Menubar File -->
 <?php include "menubar.php" ?>
 
 
 <!-- Start Banner Section -->
-<section class="banner-section">
+<section class="banner-section" id="Home">
 	<div class="container">
 		<div class="row full-banner">
 			<!-- Left Section Start -->
@@ -14,7 +14,7 @@
 				<span class="badge badge-danger covid-19">Covid-19</span>
 				<span class="c_arrow"></span>
 				<span class="virus"><strong>CoronaVirus</strong></span>
-				<h2>What is Coronavirus??</h2>
+				<h2 class="line-animation">What is Coronavirus??</h2>
 				<p><span class="subtitle">Coronavirus (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</span>
 					Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
 				</p>
@@ -185,7 +185,7 @@
 
 
 <!-- Start Prevention Section -->
-<section class="prevention-section">
+<section class="prevention-section" id="Prevention">
 	<div class="divider-top"></div>
 	<div class="container">
 		<div class="row cmn-padding">
