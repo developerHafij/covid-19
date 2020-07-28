@@ -10,7 +10,7 @@
 		<div class="blog-banner">
 			<div class="owl-carousel owl-theme blog-title text-center">
 			    <div class="item">
-			    	<h2>Our Recent Blogs</h2>
+			    	<h2>Landing Page</h2>
 					<p>Coronavirus spreads when an infected person coughs or sneezes small droplets - packed with the virus - into the air. These can be breathed in, or cause an infection if you touch a surface they have landed on.</p>
 					<div class="banner-button">
 						<a href=""><span class="btn btn-primary banner-b1">Our Blogs</span></a>

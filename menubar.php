@@ -41,7 +41,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropbtn" href="index.php" id="Home">Pages <i class="fa fa-angle-down"></i></a>
 							<div class="dropdown-content">
-							    <a href="about.php">About page</a>
+							    <a href="#">About page</a>
 							    <a href="blog.php">BLog page</a>
 							    <a href="faq.php">Faq page</a>
 							    <a href="contact.php">Contact</a>

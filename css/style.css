@@ -611,6 +611,9 @@ nav{
 }
 
 /* Contact Section CSS */
+.contact-section .full-contact {
+    padding: 200px 0 60px;
+}
 .contact-section .full-contact .contact-title h2 {
     font-size: 27px;
     font-weight: 500;
